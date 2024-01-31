@@ -6,6 +6,10 @@ import { IndexaComponent } from './component/indexa/indexa.component';
 export const routes: Routes = [
 
   {
+    path: '',
+    component: IndexaComponent
+  },
+  {
     path:'home',
     component: IndexaComponent
   },
